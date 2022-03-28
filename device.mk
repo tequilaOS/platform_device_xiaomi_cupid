@@ -31,3 +31,6 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# Miscellaneous
+TARGET_BOOT_ANIMATION_RES := 1080
