@@ -15,6 +15,8 @@ PRODUCT_NAME := tequila_cupid
 PRODUCT_DEVICE := cupid
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := 2201123G
+PRODUCT_MODEL := Xiaomi 12
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+BUILD_FINGERPRINT := Xiaomi/cupid/cupid:13/TKQ1.220807.001/V14.0.3.0.TLCMIXM:user/release-keys
