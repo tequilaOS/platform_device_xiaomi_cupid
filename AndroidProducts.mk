@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_cupid.mk
+    $(LOCAL_DIR)/tequila_cupid.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_cupid-user \
-    lineage_cupid-userdebug \
-    lineage_cupid-eng
+    tequila_cupid-user \
+    tequila_cupid-userdebug \
+    tequila_cupid-eng

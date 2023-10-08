@@ -7,11 +7,10 @@
 # Inherit from cupid device
 $(call inherit-product, device/xiaomi/cupid/device.mk)
 
-# Inherit from common lineage configuration
-TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit from common tequila configuration
+$(call inherit-product, vendor/tequila/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_cupid
+PRODUCT_NAME := tequila_cupid
 PRODUCT_DEVICE := cupid
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
